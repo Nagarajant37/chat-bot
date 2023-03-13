@@ -1,0 +1,88 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "good day",
+                "greetings",
+                "what's up?",
+                "how is it going"
+            ],
+            "responses": [
+                "hello",
+                "hey!",
+                "what can i do for you?"
+            ]
+        },
+        {
+            "tag": "clarify",
+            "patterns": [
+                "Hii. I need to clarify some Mechine related queries."
+            ],
+            "responses": [
+                "Sure. I Could help you. What are the techinical problems having now?"
+            ]
+        },
+
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you later",
+                "goodbye",
+                "have a good day",
+                "bye",
+                "cao",
+                "see ya"
+            ],
+            "responses": [
+                "have a nice day",
+                "goodbye"
+            ]
+        },
+
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should i call you",
+                "what's your name?",
+                "who are you?",
+                "can you tell me your name"
+            ],
+            "responses": [
+                "you can call me Mecot!",
+                "i am Mecbot!",
+                "i am Mecbot your Industrial assistant"
+            ]
+
+        }
+    ]
+}
